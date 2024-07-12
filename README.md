@@ -1,11 +1,11 @@
 # SDET Challenge
-This is a challenge to find a fake gold brink in a mix of 9. My algorith was:
-1. To split the bricks into two groups of four with  one brick out on its own.
-2. Then I would then weigh the two groups. 
-3. If they both weigh the same, then I know that the one brick that was left out is the fake brick. 
-4. If I have a lighter side on the scale, I then split that group evenely again and repeat
-5. Then I get to two final bricks to weigh against each other. 
-6. Finally I click on the number of the lightest brick
+This is a challenge to find a fake gold brick in a mix of nine bricks. My algorithm was:
+1. Split the bricks into two groups of four with one brick out on the side.
+2. Then I would weigh the two groups. 
+3. If they both weighed the same, then I know that the one brick that was left out is the fake brick. 
+4. If I have a lighter side on the scale, I then split that group evenly again and repeat.
+5. I will eventually get to two final bricks to weigh against each other. 
+6. Finally, I click on the number of the lightest brick.
 
 
 # Installation
