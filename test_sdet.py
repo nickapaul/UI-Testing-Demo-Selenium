@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
 class TestSDET():    
-    def test_case1(self):
+    def test_find_the_imposter(self):
         # Arrange
         possible = [0, 1, 2, 3, 4, 5, 6, 7, 8]
         driver = webdriver.Edge()
@@ -28,7 +28,6 @@ class TestSDET():
 
         # Assert
         driver.find_element(by=By.ID, value=f"coin_{possible[0]}").click()
-        n=1
         try:
             WebDriverWait(driver, 3).until(EC.alert_is_present(), 'Timed out waiting for alert to appear.')
             alert = driver.switch_to.alert
