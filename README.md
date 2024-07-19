@@ -10,7 +10,7 @@ This is a challenge to find a fake gold brick in a mix of nine bricks. My algori
 
 # Installation
 ## Prerequisets
-- Have Cypress 3.11.9 installed (https://www.python.org/downloads/release/python-3119/)
+- Have Python 3.11.9 installed (https://www.python.org/downloads/release/python-3119/)
 
 ## Steps to Install
 1. Clone repo (if not already)
